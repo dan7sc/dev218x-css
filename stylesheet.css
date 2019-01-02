@@ -3,13 +3,16 @@
 Reset Styles
 ****************************
 ***************************/
+
 @import 'normalize.css';
+
 /* Change all elements to use border-box */
+
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 *, *:before, *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 
@@ -39,3 +42,23 @@ Module Styles
 Theme Styles
 ****************************
 ***************************/
+
+/*Color List:
+- light blue = 00aeef;
+- dark blue = 1c75bc
+- green = 8dc63f
+- dark green = 009444
+- orange = f7941e
+- dark orange = f15a29
+- brown = 594a42; */
+
+.background-primary {
+  background: #f7941e; /*Orange*/
+}
+.background-secondary {
+  background: #00aeef; /*Blue*/
+}
+.background-tertiary {
+  background: #8dc63f; /*Green*/
+}
+
