@@ -85,6 +85,10 @@ Layout Styles
     .col-2-3 {
         width: 66.6666%;
     }
+    /* Column Half */
+    .col-1-2 {
+        width: 50%;
+    }
 }
 
 @media (min-width: 48em) {
