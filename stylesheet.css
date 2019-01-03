@@ -143,6 +143,10 @@ Module Styles
   color: white;
 }
 
+.btn-nav {
+    color: white;
+}
+
 .btn-primary:hover {
   background: none;
   border-color: white;
@@ -174,6 +178,17 @@ Module Styles
     height: 100%;
 }
 
+/*Navigation Modules*/
+
+.nav-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-primary {
+    margin-top: 35px;
+}
 
 
 /***************************
