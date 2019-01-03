@@ -262,14 +262,23 @@ Theme Styles
 .background-primary {
   background: #f7941e; /*Orange*/
 }
+
 .background-secondary {
   background: #00aeef; /*Blue*/
 }
+
 .background-tertiary {
   background: #8dc63f; /*Green*/
 }
+
 .background-quaternary {
   background: #594a42; /*Brown*/
   color: white;
 }
+
+.background-quinary {
+    background: #e7e1d7;
+}
+
+
 
