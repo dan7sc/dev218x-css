@@ -1,0 +1,25 @@
+/***************************
+****************************
+Module Styles
+****************************
+***************************/
+
+/*Background Modules*/
+
+.bg-image  {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-bg-image,
+.testimonial-bg-image {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  min-width: 100%;
+  opacity: 0.55;
+}
