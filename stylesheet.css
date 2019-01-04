@@ -232,7 +232,8 @@ Module Styles
   position: relative;
 }
 
-.hero-bg-image {
+.hero-bg-image,
+.testimonial-bg-image {
   position: absolute;
   top: -9999px;
   bottom: -9999px;
@@ -259,6 +260,42 @@ Module Styles
   font-size: 5em;
 }
 
+/*Testimonial Module*/
+
+.testimonial {
+  text-align: center;
+}
+
+.testimonial-body {
+  position: relative;
+}
+
+.testimonial-primary {
+  background-color: #594a42;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.testimonial-item {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.fa-star {
+  color: white;
+}
+
+/* Media Query excludes extra small devices and includes small and above */
+
+@media (min-width: 48em) {
+  .btn-primary {
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 1.125em;
+  }
+}
 
 /***************************
 ****************************
@@ -293,7 +330,7 @@ Theme Styles
 }
 
 .background-quinary {
-    background: #e7e1d7;
+    background: #e7e1d7; /*Gray*/
 }
 
 
