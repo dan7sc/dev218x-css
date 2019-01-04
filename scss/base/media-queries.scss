@@ -1,0 +1,13 @@
+/***************************
+****************************
+Base Media-queries Styles
+****************************
+***************************/
+
+$mq-1: 48em !default; /* 768px / 16px = 48em */
+
+@mixin extra-small-only {
+    @media only screen and (max-width : $mq-1 - 0.0625) { /* 0.0625 is equal one pixel. */
+        @content;
+    }
+}
