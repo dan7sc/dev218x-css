@@ -369,7 +369,6 @@ textarea {
 Reset Styles
 ****************************
 ***************************/
-/* @import 'normalize.css'; */
 /* Change all elements to use border-box */
 html {
   box-sizing: border-box; }
@@ -397,6 +396,12 @@ a {
 a:hover {
   text-decoration: underline; }
 
+/***************************
+****************************
+Base Media-queries Styles
+****************************
+***************************/
+/* 768px / 16px = 48em */
 /***************************
 ****************************
 Layout Styles
@@ -566,13 +571,6 @@ Module Styles
 Module Styles
 ****************************
 ***************************/
-/*Header Modules*/
-.header-primary {
-  background: #9B8579;
-  text-align: center;
-  padding-top: 18px;
-  padding-bottom: 18px; }
-
 /*Logo Modules*/
 .logo {
   overflow: hidden;
@@ -581,6 +579,11 @@ Module Styles
 .logo-primary {
   width: 64px;
   height: 64px; }
+  @media only screen and (min-width: 48em) {
+    .logo-primary {
+      width: auto;
+      height: 50px;
+      float: left; } }
 
 .logo-primary img {
   height: 100%; }

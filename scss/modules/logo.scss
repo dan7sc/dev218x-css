@@ -4,15 +4,6 @@ Module Styles
 ****************************
 ***************************/
 
-/*Header Modules*/
-
-.header-primary {
-  background: #9B8579;
-  text-align: center;
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-
 /*Logo Modules*/
 
 .logo {
@@ -23,8 +14,13 @@ Module Styles
 .logo-primary {
   width: 64px;
   height: 64px;
+  @include small-and-above {
+    width: auto;
+    height: 50px;
+    float: left;
+  }
 }
 
 .logo-primary img {
-    height: 100%;
+  height: 100%;
 }
