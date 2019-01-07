@@ -645,6 +645,26 @@ Module Styles
 Module Styles
 ****************************
 ***************************/
+/*Mask Modules*/
+.mask {
+  position: relative; }
+  .mask:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.mask-primary:before {
+  background: #f7941e;
+  opacity: 0.6; }
+
+/***************************
+****************************
+Module Styles
+****************************
+***************************/
 /*Media Object Module*/
 .media, .media-body {
   overflow: hidden; }
