@@ -366,6 +366,12 @@ textarea {
 
 /***************************
 ****************************
+Variables Styles
+****************************
+***************************/
+/* Color List */
+/***************************
+****************************
 Reset Styles
 ****************************
 ***************************/
@@ -395,6 +401,9 @@ a {
 
 a:hover {
   text-decoration: underline; }
+
+footer {
+  color: white; }
 
 /***************************
 ****************************
@@ -671,33 +680,19 @@ Module Styles
 Theme Styles
 ****************************
 ***************************/
-/*Color List:
-- light blue = 00aeef;
-- dark blue = 1c75bc
-- green = 8dc63f
-- dark green = 009444
-- orange = f7941e
-- dark orange = f15a29
-- brown = 594a42; */
 .background-primary {
-  background: #f7941e;
-  /*Orange*/ }
+  background: #f7941e; }
 
 .background-secondary {
-  background: #00aeef;
-  /*Blue*/ }
+  background: #00aeef; }
 
 .background-tertiary {
-  background: #8dc63f;
-  /*Green*/ }
+  background: #8dc63f; }
 
 .background-quaternary {
-  background: #594a42;
-  /*Brown*/
-  color: white; }
+  background: #594a42; }
 
 .background-quinary {
-  background: #e7e1d7;
-  /*Gray*/ }
+  background: #e7e1d7; }
 
 /*# sourceMappingURL=styles.css.map */
