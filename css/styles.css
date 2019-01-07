@@ -413,6 +413,11 @@ Base Media-queries Styles
 /* 768px / 16px = 48em */
 /***************************
 ****************************
+Base Mixins Styles
+****************************
+***************************/
+/***************************
+****************************
 Layout Styles
 ****************************
 ***************************/
@@ -531,6 +536,23 @@ Module Styles
     padding: 10px 15px;
     font-weight: normal;
     font-size: 1.125em; } }
+/***************************
+****************************
+Module Styles
+****************************
+***************************/
+/*Frame Modules*/
+.frame {
+  overflow: hidden; }
+
+.frame-primary {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 25px auto 40px auto; }
+  .frame-primary img {
+    width: 100%; }
+
 /***************************
 ****************************
 Module Styles
