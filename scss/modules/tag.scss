@@ -1,0 +1,28 @@
+/***************************
+****************************
+Module Styles
+****************************
+***************************/
+
+/*Tag Module*/
+
+.tag {
+  position: absolute;
+  color: white;
+  height: 50px;
+  padding: 10px 35px;
+  margin-top: -4px;
+}
+
+.tag-color-1 {
+  background: $background-tertiary;
+  border-top: 4px solid $background-tertiary;
+}
+
+.tag-color-2 {
+ background: $background-primary; 
+}
+
+.tag-color-3 {
+  background: $background-quinary;
+}

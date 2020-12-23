@@ -19,3 +19,15 @@ Module Styles
   color: #594a42;
   font-size: 5em;
 }
+
+.media-featured {
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+
+.media-featured > img {
+  margin-bottom: 20px;
+  max-height: 204px;
+  width: 100%;
+  object-fit: cover;
+}

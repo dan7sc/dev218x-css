@@ -411,6 +411,7 @@ Base Media-queries Styles
 ****************************
 ***************************/
 /* 768px / 16px = 48em */
+/* 992px / 16px = 62em */
 /***************************
 ****************************
 Base Mixins Styles
@@ -443,7 +444,7 @@ Layout Styles
   padding-right: 15px; }
 
 /* Media Query excludes extra small devices and includes small and above */
-@media (min-width: 48em) {
+@media only screen and (min-width: 48em) {
   [class*='col-'] {
     float: left; }
 
@@ -467,10 +468,11 @@ Layout Styles
   /* Column Sixth */
   .col-1-6 {
     width: 16.6666%; } }
-@media (min-width: 48em) {
+@media only screen and (min-width: 48em) {
   .pull-right-sm {
     float: right; } }
 @media only screen and (max-width: 47.9375em) {
+  /* 0.0625 is equal one pixel. */
   .remove-gutter-xs {
     padding-left: 0px;
     padding-right: 0px; } }
@@ -677,6 +679,16 @@ Module Styles
   color: #594a42;
   font-size: 5em; }
 
+.media-featured {
+  margin-top: 4px;
+  margin-bottom: 40px; }
+
+.media-featured > img {
+  margin-bottom: 20px;
+  max-height: 204px;
+  width: 100%;
+  object-fit: cover; }
+
 /***************************
 ****************************
 Module Styles
@@ -698,6 +710,29 @@ Module Styles
       margin-top: 0px; }
       .nav-primary li {
         display: inline-block; } }
+
+/***************************
+****************************
+Module Styles
+****************************
+***************************/
+/*Tag Module*/
+.tag {
+  position: absolute;
+  color: white;
+  height: 50px;
+  padding: 10px 35px;
+  margin-top: -4px; }
+
+.tag-color-1 {
+  background: #8dc63f;
+  border-top: 4px solid #8dc63f; }
+
+.tag-color-2 {
+  background: #f7941e; }
+
+.tag-color-3 {
+  background: #e7e1d7; }
 
 /***************************
 ****************************
